@@ -1,0 +1,15 @@
+C:\DEV\CSHARP\helloWorld\helloWorld\obj\Debug\net6.0\consoleApps.csproj.AssemblyReference.cache
+C:\DEV\CSHARP\helloWorld\helloWorld\obj\Debug\net6.0\consoleApps.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\CSHARP\helloWorld\helloWorld\obj\Debug\net6.0\consoleApps.AssemblyInfoInputs.cache
+C:\DEV\CSHARP\helloWorld\helloWorld\obj\Debug\net6.0\consoleApps.AssemblyInfo.cs
+C:\DEV\CSHARP\helloWorld\helloWorld\obj\Debug\net6.0\consoleApps.csproj.CoreCompileInputs.cache
+C:\DEV\CSHARP\helloWorld\helloWorld\bin\Debug\net6.0\consoleApps.exe
+C:\DEV\CSHARP\helloWorld\helloWorld\bin\Debug\net6.0\consoleApps.deps.json
+C:\DEV\CSHARP\helloWorld\helloWorld\bin\Debug\net6.0\consoleApps.runtimeconfig.json
+C:\DEV\CSHARP\helloWorld\helloWorld\bin\Debug\net6.0\consoleApps.dll
+C:\DEV\CSHARP\helloWorld\helloWorld\bin\Debug\net6.0\consoleApps.pdb
+C:\DEV\CSHARP\helloWorld\helloWorld\obj\Debug\net6.0\consoleApps.dll
+C:\DEV\CSHARP\helloWorld\helloWorld\obj\Debug\net6.0\refint\consoleApps.dll
+C:\DEV\CSHARP\helloWorld\helloWorld\obj\Debug\net6.0\consoleApps.pdb
+C:\DEV\CSHARP\helloWorld\helloWorld\obj\Debug\net6.0\consoleApps.genruntimeconfig.cache
+C:\DEV\CSHARP\helloWorld\helloWorld\obj\Debug\net6.0\ref\consoleApps.dll

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DEV\\CSHARP\\helloWorld\\helloWorld\\helloWorld.csproj": {}
+    "C:\\DEV\\CSHARP\\helloWorld\\helloWorld\\consoleApps.csproj": {}
   },
   "projects": {
-    "C:\\DEV\\CSHARP\\helloWorld\\helloWorld\\helloWorld.csproj": {
+    "C:\\DEV\\CSHARP\\helloWorld\\helloWorld\\consoleApps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\CSHARP\\helloWorld\\helloWorld\\helloWorld.csproj",
-        "projectName": "helloWorld",
-        "projectPath": "C:\\DEV\\CSHARP\\helloWorld\\helloWorld\\helloWorld.csproj",
+        "projectUniqueName": "C:\\DEV\\CSHARP\\helloWorld\\helloWorld\\consoleApps.csproj",
+        "projectName": "consoleApps",
+        "projectPath": "C:\\DEV\\CSHARP\\helloWorld\\helloWorld\\consoleApps.csproj",
         "packagesPath": "C:\\Users\\Jesus\\.nuget\\packages\\",
         "outputPath": "C:\\DEV\\CSHARP\\helloWorld\\helloWorld\\obj\\",
         "projectStyle": "PackageReference",

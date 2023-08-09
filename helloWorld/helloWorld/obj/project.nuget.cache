@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9zpbkBDJZFF7C0ZdSU9etT1xl6L0UkbLzokX1mgMgEwqL8iNmrMDovOeiuyi1+9Vfha9VePjeABDZxu+nwYlsA==",
+  "dgSpecHash": "JgdM4cYvrk5bhPE7nhjWIrbC5d5c6lA27kvw4EA9Sb6MICBo4ZkRKPAgKUeneB9zo0QEhVxU1miW7UGZc8iMZA==",
   "success": true,
-  "projectFilePath": "c:\\DEV\\CSHARP\\helloWorld\\helloWorld\\helloWorld.csproj",
+  "projectFilePath": "C:\\DEV\\CSHARP\\helloWorld\\helloWorld\\consoleApps.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
