@@ -1,0 +1,15 @@
+C:\DEV\CSHARP\conditionals\conditionals\bin\Debug\net6.0\conditionals.exe
+C:\DEV\CSHARP\conditionals\conditionals\bin\Debug\net6.0\conditionals.deps.json
+C:\DEV\CSHARP\conditionals\conditionals\bin\Debug\net6.0\conditionals.runtimeconfig.json
+C:\DEV\CSHARP\conditionals\conditionals\bin\Debug\net6.0\conditionals.dll
+C:\DEV\CSHARP\conditionals\conditionals\bin\Debug\net6.0\conditionals.pdb
+C:\DEV\CSHARP\conditionals\conditionals\obj\Debug\net6.0\conditionals.csproj.AssemblyReference.cache
+C:\DEV\CSHARP\conditionals\conditionals\obj\Debug\net6.0\conditionals.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\CSHARP\conditionals\conditionals\obj\Debug\net6.0\conditionals.AssemblyInfoInputs.cache
+C:\DEV\CSHARP\conditionals\conditionals\obj\Debug\net6.0\conditionals.AssemblyInfo.cs
+C:\DEV\CSHARP\conditionals\conditionals\obj\Debug\net6.0\conditionals.csproj.CoreCompileInputs.cache
+C:\DEV\CSHARP\conditionals\conditionals\obj\Debug\net6.0\conditionals.dll
+C:\DEV\CSHARP\conditionals\conditionals\obj\Debug\net6.0\refint\conditionals.dll
+C:\DEV\CSHARP\conditionals\conditionals\obj\Debug\net6.0\conditionals.pdb
+C:\DEV\CSHARP\conditionals\conditionals\obj\Debug\net6.0\conditionals.genruntimeconfig.cache
+C:\DEV\CSHARP\conditionals\conditionals\obj\Debug\net6.0\ref\conditionals.dll
