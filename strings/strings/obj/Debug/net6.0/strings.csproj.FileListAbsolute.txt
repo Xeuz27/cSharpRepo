@@ -1,0 +1,15 @@
+C:\DEV\CSHARP\strings\strings\bin\Debug\net6.0\strings.exe
+C:\DEV\CSHARP\strings\strings\bin\Debug\net6.0\strings.deps.json
+C:\DEV\CSHARP\strings\strings\bin\Debug\net6.0\strings.runtimeconfig.json
+C:\DEV\CSHARP\strings\strings\bin\Debug\net6.0\strings.dll
+C:\DEV\CSHARP\strings\strings\bin\Debug\net6.0\strings.pdb
+C:\DEV\CSHARP\strings\strings\obj\Debug\net6.0\strings.csproj.AssemblyReference.cache
+C:\DEV\CSHARP\strings\strings\obj\Debug\net6.0\strings.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\CSHARP\strings\strings\obj\Debug\net6.0\strings.AssemblyInfoInputs.cache
+C:\DEV\CSHARP\strings\strings\obj\Debug\net6.0\strings.AssemblyInfo.cs
+C:\DEV\CSHARP\strings\strings\obj\Debug\net6.0\strings.csproj.CoreCompileInputs.cache
+C:\DEV\CSHARP\strings\strings\obj\Debug\net6.0\strings.dll
+C:\DEV\CSHARP\strings\strings\obj\Debug\net6.0\refint\strings.dll
+C:\DEV\CSHARP\strings\strings\obj\Debug\net6.0\strings.pdb
+C:\DEV\CSHARP\strings\strings\obj\Debug\net6.0\strings.genruntimeconfig.cache
+C:\DEV\CSHARP\strings\strings\obj\Debug\net6.0\ref\strings.dll
