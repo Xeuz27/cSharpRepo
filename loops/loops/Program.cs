@@ -1,79 +1,121 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System;
 
-
+// Initialize a random number generator
 System.Random random = new System.Random();
-int playersLives = 3;
+
+// Initialize variables
+int playerLives;
+int playersbet;
 int playerTotalCount = 0;
 int dealerTotalCount = 0;
 int num = 0;
 var message = "";
 string anotherCardControl = "";
 string switchControl = "menu";
+int platziCoins = 0;
+string keepPlayingControl;
+string keepPlayingControlLowerCase;
 
-// Black jack minigame
+// Welcome message
+Console.WriteLine("-----Welcome to the P L A T Z I N O----- \n");
 
-    Console.WriteLine($"you have a total of: {playersLives} lives \n");
-while (playersLives > 0)
+// Main game loop
+do
 {
-    playerTotalCount = 0;
-    dealerTotalCount = 0;
-    switch (switchControl)
+    // Get the number of lives the player wishes to buy
+    Console.WriteLine("how many lives do you wish to buy?");
+    playerLives = Convert.ToInt32(Console.ReadLine());
+
+    // Start the game as long as the player has lives left
+    while (playerLives > 0)
     {
-        case "menu":
-            Console.WriteLine("Welcome to the casino");
-            Console.WriteLine("Write '21' to play blackjack");
-            switchControl = Console.ReadLine();
-            break;
+        playerTotalCount = 0;
+        dealerTotalCount = 0;
 
-        case "21":
+        // Main game logic based on a menu system
+        switch (switchControl)
+        {
+            case "menu":
+                // Menu option to play blackjack
+                Console.WriteLine("-----Write '21' to play blackjack-----");
+                switchControl = Console.ReadLine();
+                break;
+            case "21":
+                // Get the player's bet
+                Console.WriteLine("how many lives do you wish to bet?");
+                do
+                {
+                    playersbet = Convert.ToInt32(Console.ReadLine());
+                    if (playersbet > playerLives)
+                    {
+                        Console.WriteLine($"you don't have that many lives, please insert a number lower than {playerLives}");
+                    }
+                } while (playersbet > playerLives);
 
-                Console.WriteLine("\ntake your first hand player");
-            do
-            {
-                num = random.Next(1, 12);
-                playerTotalCount = playerTotalCount + num;
-                Console.WriteLine($"your Hand is: {num}");
-                Console.WriteLine("do you want another Card? if yes write 'y'");
-                anotherCardControl = Console.ReadLine();
+                // Player's turn to draw cards
+                Console.WriteLine("-----Take your first Card player----- \n");
+                do
+                {
+                    num = random.Next(1, 12);
+                    playerTotalCount += num;
+                    Console.WriteLine($"\n-----Your Card is: {num}-----");
+                    Console.WriteLine($"-----You have {playerTotalCount}-----");
 
-            } while (anotherCardControl == "y" || anotherCardControl == "Y");
+                    // Ask if the player wants another card
+                    if (playerTotalCount < 21)
+                    {
+                        Console.WriteLine("do you want another Card? if yes write 'y'");
+                        anotherCardControl = Console.ReadLine();
+                    }
+                    else
+                    {
+                        anotherCardControl = "no";
+                    }
+                } while (anotherCardControl == "y" || anotherCardControl == "Y");
 
-            dealerTotalCount = random.Next(14, 23);
-            Console.WriteLine($"dealer has: {dealerTotalCount} \n");
+                // Simulate the dealer's turn
+                dealerTotalCount = random.Next(14, 23);
 
-            if (playerTotalCount > dealerTotalCount && playerTotalCount < 22)
-            {
-                message = "You won, congratulations! \n";
+                // Determine the outcome of the game
+                if (playerTotalCount > dealerTotalCount && playerTotalCount < 22 || dealerTotalCount > 21)
+                {
+                    message = "You won, congratulations! \n";
+                    switchControl = "menu";
+                    playerLives += playersbet;
+                }
+                else if (playerTotalCount >= 22)
+                {
+                    message = "You lost, try again \n";
+                    switchControl = "menu";
+                    playerLives -= playersbet;
+                }
+                else
+                {
+                    message = "You lost, try again \n";
+                    switchControl = "menu";
+                    playerLives -= playersbet;
+                }
+
+                // Display game results
+                Console.WriteLine($"Player Total Count: {playerTotalCount}");
+                Console.WriteLine($"Dealer Total Count: {dealerTotalCount}");
+                Console.WriteLine(message);
+
+                break;
+            default:
+                // Invalid menu option
                 switchControl = "menu";
-                playersLives = playersLives + 1;
-
-            }
-            else if (playerTotalCount >= 22)
-            {
-                message = "You lost, try again \n";
-                switchControl = "menu";
-                playersLives = playersLives - 1;
-            }
-            else
-            {
-                message = "You lost, try again \n";
-                switchControl = "menu";
-                playersLives = playersLives - 1;
-
-            }
-
-            Console.WriteLine($"Player Total Count: {playerTotalCount}");
-            Console.WriteLine($"Dealer Total Count: {dealerTotalCount}");
-            Console.WriteLine(message);
-
-            break;
-        default:
-            switchControl = "menu";
-            Console.WriteLine("invalid option try again");
-            // Code to execute if no case matches the expression
-            break;
+                Console.WriteLine("invalid option try again");
+                break;
+        }
+        Console.WriteLine($"\n----- You have a total of: {playerLives} lives-----");
     }
 
-}
-Console.WriteLine($"you lost all your lives, restart to try again");
+    // Ask if the player wants to play again
+    Console.WriteLine($"you lost all your lives, wanna try again? If yes write 'y'");
+    keepPlayingControl = Console.ReadLine();
+    keepPlayingControlLowerCase = keepPlayingControl.ToLower();
+
+} while (keepPlayingControlLowerCase == "y");

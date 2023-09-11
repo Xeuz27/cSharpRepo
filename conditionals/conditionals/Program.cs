@@ -35,6 +35,10 @@ switch (switchControl)
         Console.WriteLine(message);
 
         break;
+    default:
+        Console.WriteLine("invalid option try again");
+        // Code to execute if no case matches the expression
+        break;
 }
 
 Console.ReadLine();
